@@ -1,8 +1,9 @@
-# Template folder for my C++ projects
+# vec: an example of using the C++ language's class "vector"
+This repo has been built up using the template:
 
 ## my_C++_project_template: template for my C/C++ projects using cmake:
 
-### Instructions for Linux
+### Instructions for Linux/Mac
 
 Let us assume that the project folder is `myProject`, and project's run file is `foo`. Then: 
 
