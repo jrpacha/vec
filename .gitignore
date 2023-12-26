@@ -230,3 +230,7 @@ TSWLatexianTemp*
 # cmake ignore build and run directory
 /build/*
 /run/*
+
+# cmake ignore build and run directory
+/build/*
+/run/*
