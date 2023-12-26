@@ -8,6 +8,10 @@ set(program "vec") # Change myProjectRunFile by the current
 
 project(${program})
 
+# ----------------------------------------------------------------------
+# Activate C++ 11 (-std=c++11)
+# ----------------------------------------------------------------------
+#set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
