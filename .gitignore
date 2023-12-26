@@ -226,3 +226,7 @@ TSWLatexianTemp*
 
 # expex forward references with \gathertags
 *-tags.tex
+
+# cmake ignore build and run directory
+/build/*
+/run/*
