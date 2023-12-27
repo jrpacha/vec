@@ -24,7 +24,7 @@ Let us assume that the project folder is `myProject`, and project's run file is 
 
        `JohnDoe@unix~/myProject $ mkdir build; cd build`
 
-    2. Next, invoke cmake 
+    2. Next, invoke cmake
 
         `JohnDoe@unix:~/myProject/build $ cmake -DCMAKE_BUILD_TYPE=Debug<or Release> .. `
 
