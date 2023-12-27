@@ -10,26 +10,26 @@ template <typename T>
 void print_vector(const std::vector<T> &, const size_t &);
 
 template <typename T>
-void print_matrix(const std::vector<std::vector<T> > &, const size_t &);
+void print_matrix(const std::vector<std::vector<T>> &, const size_t &);
 
 // print vector
 template <typename T>
-void print_vector(const std::vector<T> & ptr, 
-		const size_t & prec)
+void print_vector(const std::vector<T> &ptr,
+                  const size_t &prec)
 {
     size_t width;
     width = prec + 8;
     std::cout << std::scientific << std::setprecision(prec);
 
     for (size_t i = 0; i < ptr.size(); i++)
-            std::cout << std::setw(width) << ptr[i];
+        std::cout << std::setw(width) << ptr[i];
     std::cout << std::endl;
 }
 
 // print matrix
 template <typename T>
-void print_matrix(const std::vector<std::vector<T> > & ptr, 
-		const size_t & prec)
+void print_matrix(const std::vector<std::vector<T>> &ptr,
+                  const size_t &prec)
 {
     size_t width;
     width = prec + 8;
