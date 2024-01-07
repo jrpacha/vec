@@ -20,6 +20,9 @@ int main()
   print_vector<double>(v, PREC);
   std::cout << std::endl;
 
+  // Deallocate vector v
+  std::vector<double> ().swap(v);
+
   // Martrices
   //
   // Declare permutation vector and set all its components to 0
@@ -82,7 +85,7 @@ int main()
   print_matrix<double>(a, PREC);
   std::cout << std::endl;
 
-  // Deallocae permutation vector p
+  // Deallocae permutation vector perm
   std::vector<int>().swap(perm);
   std::cout << "- Deallocate pointer perm " << std::endl
             << "  Size: " << perm.size() << std::endl
