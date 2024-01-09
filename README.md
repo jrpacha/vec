@@ -48,7 +48,7 @@ Let us assume that the project folder is `myProject`, and project's run file is 
        will execute the program and save the output files to `myProject/run` folder.
 
 5. The run file, `foo`, will be placed in `myProject/bin/Debug` (or in
-   `myProject/bin/Relese`), depending upon the build type specified at step **4.ii**
+   `myProject/bin/Release`), depending upon the build type specified at step **4.2**
    above.
 
 6. To clean the project: from the same directory type,
